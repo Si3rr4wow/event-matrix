@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Event Matrix</title>
+  </head>
+  <body>
+    <h1>Welcome to the Event Matrix</h1>
+
+    <p>
+      The event matrix is a Node.js server which uses an event emission pattern.
+    </p>
+
+    <h2>Endpoint Directory</h2>
+    <ul>
+      <li>
+        <h3>/ping</h3>
+        <p>
+          A short round trip to demonstrate promise resolution in an
+          event-centric environment.
+        </p>
+      </li>
+      <li>
+        <h3>/ping-wrong</h3>
+        <p>
+          The same as /ping but with a cheeky bug where a new event handler is
+          registered on every call
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
